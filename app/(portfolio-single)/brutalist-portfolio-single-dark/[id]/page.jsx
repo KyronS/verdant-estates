@@ -222,3 +222,5 @@ export default function BrutalistPortfolioSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

@@ -194,3 +194,5 @@ export default function FancyPortfolioSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

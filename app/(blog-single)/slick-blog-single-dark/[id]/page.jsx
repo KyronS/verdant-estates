@@ -231,3 +231,5 @@ export default function SlickBlogSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

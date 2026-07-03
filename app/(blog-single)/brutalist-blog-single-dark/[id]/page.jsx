@@ -224,3 +224,5 @@ export default function BrutalistBlogSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

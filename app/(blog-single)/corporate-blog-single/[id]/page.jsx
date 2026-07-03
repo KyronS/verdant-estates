@@ -226,3 +226,5 @@ export default function CorporateBlogSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

@@ -240,3 +240,5 @@ export default function BoldBlogSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

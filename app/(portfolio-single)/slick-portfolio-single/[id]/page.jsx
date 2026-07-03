@@ -203,3 +203,5 @@ export default function SlickPortfolioSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

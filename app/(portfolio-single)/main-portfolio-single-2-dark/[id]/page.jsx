@@ -248,3 +248,5 @@ export default function MainPortfolioSinglePage2Dark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

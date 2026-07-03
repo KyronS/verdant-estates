@@ -232,3 +232,5 @@ export default function GradientBlogSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

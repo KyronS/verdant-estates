@@ -207,3 +207,5 @@ export default function SlickPortfolioSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

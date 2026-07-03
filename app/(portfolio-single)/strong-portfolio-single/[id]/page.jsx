@@ -201,3 +201,5 @@ export default function StrongPortfolioSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

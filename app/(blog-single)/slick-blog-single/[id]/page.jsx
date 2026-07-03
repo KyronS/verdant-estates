@@ -225,3 +225,5 @@ export default function SlickBlogSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

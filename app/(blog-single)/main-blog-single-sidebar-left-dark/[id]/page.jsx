@@ -233,3 +233,5 @@ export default function MainBlogSinglePageSIdebarLeftDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

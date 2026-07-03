@@ -174,3 +174,5 @@ export default function BoldPortfolioSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

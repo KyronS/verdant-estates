@@ -230,3 +230,5 @@ export default function GradientBlogSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

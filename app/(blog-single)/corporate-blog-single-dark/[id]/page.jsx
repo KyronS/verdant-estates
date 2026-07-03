@@ -233,3 +233,5 @@ export default function CorporateBlogSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

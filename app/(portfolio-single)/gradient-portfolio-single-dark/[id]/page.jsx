@@ -199,3 +199,5 @@ export default function GradientPortfolioSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

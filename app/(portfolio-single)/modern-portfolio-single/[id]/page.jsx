@@ -215,3 +215,5 @@ export default function ModernPortfolioSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

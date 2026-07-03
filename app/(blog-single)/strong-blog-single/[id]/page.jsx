@@ -222,3 +222,5 @@ export default function StrongBlogSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

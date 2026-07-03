@@ -301,3 +301,5 @@ export default function MainBlogSinglePageFullWidth({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

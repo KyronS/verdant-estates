@@ -191,3 +191,5 @@ export default function GradientPortfolioSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

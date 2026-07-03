@@ -238,3 +238,5 @@ export default function MainPortfolioSinglePage2({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

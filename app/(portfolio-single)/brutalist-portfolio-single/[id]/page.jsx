@@ -205,3 +205,5 @@ export default function BrutalistPortfolioSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

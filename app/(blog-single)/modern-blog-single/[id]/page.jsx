@@ -253,3 +253,5 @@ export default function ModernBlogSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

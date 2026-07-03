@@ -203,3 +203,5 @@ export default function ElegantBlogSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

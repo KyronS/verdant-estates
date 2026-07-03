@@ -189,3 +189,5 @@ export default function ElegantPortfolioSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

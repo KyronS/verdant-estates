@@ -236,3 +236,5 @@ export default function BoldBlogSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

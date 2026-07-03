@@ -308,3 +308,5 @@ export default function CorporatePortfolioSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

@@ -226,3 +226,5 @@ export default function StrongBlogSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

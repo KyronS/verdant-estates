@@ -225,3 +225,5 @@ export default function MainBlogSinglePageSidebarRight({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

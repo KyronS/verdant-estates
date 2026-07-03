@@ -205,3 +205,5 @@ export default function FancyPortfolioSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

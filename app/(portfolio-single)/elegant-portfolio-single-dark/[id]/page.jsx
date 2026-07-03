@@ -199,3 +199,5 @@ export default function ElegantPortfolioSinglePageDark({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

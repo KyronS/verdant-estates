@@ -218,3 +218,5 @@ export default function FancyBlogSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }

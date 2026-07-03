@@ -217,3 +217,5 @@ export default function BrutalistBlogSinglePage({ params }) {
     </>
   );
 }
+
+export function generateStaticParams() { return []; }
