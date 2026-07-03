@@ -7,6 +7,7 @@ import VerdantContact from "@/components/verdant/VerdantContact";
 import Portfolio from "@/components/homes/home-5/Portfolio";
 import AnimatedText from "@/components/common/AnimatedText";
 import { verdantMenu } from "@/data/menu";
+import { assetUrl } from "@/lib/assetUrl";
 
 const ParallaxContainer = dynamic(
   () => import("@/components/common/ParallaxContainer"),
@@ -36,7 +37,7 @@ export default function VerdantHome() {
             className="home-section bg-dark-alpha-60 parallax-5 light-content z-index-1 scrollSpysection"
             style={{
               backgroundImage:
-                "url(/assets/images/demo-elegant/section-bg-1.PNG)",
+                `url(${assetUrl("/assets/images/demo-elegant/section-bg-1.PNG")})`,
             }}
             id="home"
           >
@@ -183,7 +184,7 @@ export default function VerdantHome() {
             className="small-section bg-dark-1 bg-dark-alpha-85 bg-scroll light-content"
             style={{
               backgroundImage:
-                "url(/assets/images/demo-elegant/section-bg-4.png)",
+                `url(${assetUrl("/assets/images/demo-elegant/section-bg-4.png")})`,
             }}
           >
             <div className="container">

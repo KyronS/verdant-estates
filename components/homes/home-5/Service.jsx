@@ -1,4 +1,5 @@
 import { services6 } from "@/data/services";
+import { assetUrl } from "@/lib/assetUrl";
 import React from "react";
 
 export default function Service() {
@@ -7,7 +8,7 @@ export default function Service() {
       <div
         className="page-section bg-dark-1 bg-dark-alpha-70 light-content parallax-7 pb-140"
         style={{
-          backgroundImage: "url(/assets/images/demo-elegant/section-bg-3.png)",
+          backgroundImage: `url(${assetUrl("/assets/images/demo-elegant/section-bg-3.png")})`,
         }}
       >
         <div className="container position-relative">
