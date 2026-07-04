@@ -37,7 +37,7 @@ export default function VerdantHome() {
             className="home-section bg-dark-alpha-60 parallax-5 light-content z-index-1 scrollSpysection"
             style={{
               backgroundImage:
-                `url(${assetUrl("/assets/images/demo-elegant/section-bg-1.PNG")})`,
+                `url(${assetUrl("/assets/images/demo-elegant/section-bg-1.png")})`,
             }}
             id="home"
           >
