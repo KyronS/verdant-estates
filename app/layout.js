@@ -45,6 +45,11 @@ export default function RootLayout({ children }) {
     <html lang="en" className="no-mobile no-touch ">
       <head>
         <link
+          rel="icon"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/favicon.svg`}
+          type="image/svg+xml"
+        />
+        <link
           href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
