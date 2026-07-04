@@ -3,6 +3,7 @@ import { portfolios5 } from "@/data/portfolio";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { assetUrl } from "@/lib/assetUrl";
 import { Gallery, Item } from "react-photoswipe-gallery";
 const filters = [
   { name: "All Projects", category: "all" },
@@ -57,8 +58,8 @@ export default function Portfolio() {
               >
                 {item.type === "Lightbox" ? (
                   <Item
-                    original={item.imageSrc}
-                    thumbnail={item.imageSrc}
+                    original={assetUrl(item.imageSrc)}
+                    thumbnail={assetUrl(item.imageSrc)}
                     width={650}
                     height={773}
                   >
@@ -71,7 +72,7 @@ export default function Portfolio() {
                           <div className="work-img-bg wow-p scalexIn" />
 
                           <Image
-                            src={item.imageSrc}
+                            src={assetUrl(item.imageSrc)}
                             ref={ref}
                             width={650}
                             height={761}

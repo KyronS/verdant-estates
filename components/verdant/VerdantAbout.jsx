@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { assetUrl } from "@/lib/assetUrl";
 
 const features = [
   { text: "Licensed Florida Landscape Architects" },
@@ -19,7 +20,7 @@ export default function VerdantAbout() {
               <div className="composition-5">
                 <div className="composition-5-decoration opacity-065">
                   <Image
-                    src="/assets/images/demo-slick/decoration-1.svg"
+                    src={assetUrl("/assets/images/demo-slick/decoration-1.svg")}
                     alt=""
                     width={228}
                     height={228}
@@ -28,7 +29,7 @@ export default function VerdantAbout() {
                 <div className="composition-5-image-1">
                   <div className="composition-5-image-1-inner">
                     <Image
-                      src="/assets/images/demo-slick/hs-image-3.png"
+                      src={assetUrl("/assets/images/demo-slick/hs-image-3.png")}
                       alt="Verdant Estates landscape installation"
                       width={850}
                       height={914}
@@ -40,7 +41,7 @@ export default function VerdantAbout() {
                 <div className="composition-5-image-2">
                   <div className="composition-5-image-2-inner">
                     <Image
-                      src="/assets/images/demo-slick/hs-image-4.png"
+                      src={assetUrl("/assets/images/demo-slick/hs-image-4.png")}
                       alt="Garden detail"
                       width={400}
                       height={400}
