@@ -1,0 +1,230 @@
+/* =====================================================
+   VERDANT ESTATES — Luxury Landscaping Theme
+   Overrides applied to .theme-elegant base
+   ===================================================== */
+
+/* ---- Typography ---- */
+.theme-verdant {
+  --font-global: "Cormorant Garamond", "Poppins", serif;
+  --color-primary-1: #1c4530;
+  --color-primary-2: #2d6a4f;
+  --color-primary-3: #52b788;
+  --color-primary-4: #95d5b2;
+  --color-accent: #c8a84b;
+  --color-cream: #f7f4ee;
+  --color-dark-1: #111a14;
+  font-family: var(--font-global);
+  background-color: var(--color-cream);
+}
+
+/* ---- Section backgrounds ---- */
+.theme-verdant .bg-gray-light-1 {
+  background-color: var(--color-cream) !important;
+}
+
+/* ---- Nav ---- */
+.theme-verdant .main-nav.dark .nav-logo-wrap .logo {
+  letter-spacing: 0.12em;
+}
+
+/* ---- Headings ---- */
+.theme-verdant h1,
+.theme-verdant h2,
+.theme-verdant h3,
+.theme-verdant .hs-title-3,
+.theme-verdant .section-title {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.03em !important;
+}
+
+.theme-verdant .hs-title-3 {
+  font-size: clamp(2.8rem, 7vw, 7rem) !important;
+}
+
+/* ---- Hero tagline ---- */
+.theme-verdant .section-title-tiny {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 0.78rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.25em !important;
+  text-transform: uppercase !important;
+  color: var(--color-accent) !important;
+}
+
+/* ---- Links & Accents ---- */
+.theme-verdant .link-hover-anim,
+.theme-verdant .link-strong {
+  color: var(--color-primary-1);
+}
+
+.theme-verdant .link-hover-anim:hover,
+.theme-verdant .link-strong:hover {
+  color: var(--color-accent);
+}
+
+.theme-verdant .light-content .link-hover-anim,
+.theme-verdant .light-content .link-strong {
+  color: #fff;
+}
+
+/* ---- Buttons ---- */
+.theme-verdant .btn-mod.btn-circle {
+  border-radius: 50px;
+  background: var(--color-primary-1);
+  border-color: var(--color-primary-1);
+  color: #fff;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.theme-verdant .btn-mod.btn-circle:hover {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.theme-verdant .btn-mod.btn-border-w {
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #fff;
+}
+
+.theme-verdant .btn-mod.btn-border-w:hover {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+/* ---- Services Cards (services-3) ---- */
+.theme-verdant .services-3-item {
+  background: #fff;
+  border: 1px solid rgba(28, 69, 48, 0.1);
+  border-radius: 4px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.theme-verdant .services-3-item:hover {
+  box-shadow: 0 12px 40px rgba(28, 69, 48, 0.12);
+  transform: translateY(-4px);
+}
+
+.theme-verdant .services-3-icon svg path {
+  fill: var(--color-primary-1);
+}
+
+.theme-verdant .services-3-title {
+  color: var(--color-dark-1);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.theme-verdant .services-3-text {
+  color: #555;
+  font-size: 0.92rem;
+  line-height: 1.8;
+}
+
+/* ---- Marquee ---- */
+.theme-verdant .marquee-track > div {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(1.8rem, 4vw, 3.5rem);
+  font-style: italic;
+  font-weight: 300;
+  color: var(--color-primary-1);
+  letter-spacing: 0.04em;
+  padding: 0 2em;
+}
+
+.theme-verdant .marquee-track > div::before {
+  content: "✦";
+  font-style: normal;
+  font-size: 0.5em;
+  vertical-align: middle;
+  margin-right: 1.5em;
+  color: var(--color-accent);
+}
+
+/* ---- Spot boxes (about stats) ---- */
+.theme-verdant .spot-box-icon {
+  width: 14px;
+  height: 14px;
+  background: var(--color-accent);
+  border-radius: 50%;
+}
+
+.theme-verdant .spot-box-text {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: var(--color-dark-1);
+}
+
+/* ---- Portfolio / Works grid ---- */
+.theme-verdant .works-filter-elegant .filter.active,
+.theme-verdant .works-filter-elegant .filter:hover {
+  color: var(--color-primary-1);
+  border-bottom-color: var(--color-accent);
+}
+
+/* ---- Progress bars ---- */
+.theme-verdant .progress-bar {
+  background: var(--color-primary-2);
+}
+
+/* ---- Form elements ---- */
+.theme-verdant .form input:focus,
+.theme-verdant .form textarea:focus {
+  border-color: var(--color-primary-2) !important;
+  outline: none;
+}
+
+/* ---- Contact items ---- */
+.theme-verdant .ci-icon {
+  color: var(--color-primary-1);
+}
+
+/* ---- Footer ---- */
+.theme-verdant .footer.bg-dark-1 {
+  background-color: #0d2219 !important;
+}
+
+.theme-verdant .footer-text a,
+.theme-verdant .footer-social-links a {
+  color: rgba(255, 255, 255, 0.55);
+  transition: color 0.2s;
+}
+
+.theme-verdant .footer-text a:hover,
+.theme-verdant .footer-social-links a:hover {
+  color: var(--color-accent);
+}
+
+/* ---- Gold dividers ---- */
+.theme-verdant hr {
+  border-color: rgba(200, 168, 75, 0.2);
+}
+
+/* ---- Page section offset on light bg ---- */
+.theme-verdant .page-section.cream-bg {
+  background-color: var(--color-cream);
+}
+
+/* ---- Call-action images (about CTA) ---- */
+.theme-verdant .call-action-1-image-1.round img {
+  border-radius: 8px;
+}
+
+/* ---- Scroll-down indicator ---- */
+.theme-verdant .scroll-down-3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ---- Responsive tweaks ---- */
+@media (max-width: 767px) {
+  .theme-verdant .marquee-track > div {
+    font-size: 1.5rem;
+  }
+}
