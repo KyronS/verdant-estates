@@ -1,8 +1,8 @@
 export const verdantMenu = [
-  { href: "#home", text: "Home" },
-  { href: "#about", text: "About" },
-  { href: "#services", text: "Services" },
-  { href: "#projects", text: "Projects" },
+  { href: "/", text: "Home" },
+  { href: "/#about", text: "About" },
+  { href: "/services/", text: "Services" },
+  { href: "/projects/", text: "Projects" },
 ];
 
 export const strongMultiPages = [

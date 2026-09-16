@@ -2,10 +2,10 @@ export default function VerdantLogo({ height = 40 }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 190 54"
+      viewBox="0 0 245 54"
       height={height}
       style={{ width: "auto", display: "block" }}
-      aria-label="Verdant Estates"
+      aria-label="Verdant Transformations"
     >
       {/* Right blade — behind left */}
       <path
@@ -33,12 +33,12 @@ export default function VerdantLogo({ height = 40 }) {
         x="67"
         y="47"
         fontSize="10"
-        letterSpacing="5.5"
+        letterSpacing="1.6"
         fill="#c8a84b"
         fontWeight="400"
         style={{ fontFamily: "inherit" }}
       >
-        ESTATES
+        TRANSFORMATIONS
       </text>
     </svg>
   );

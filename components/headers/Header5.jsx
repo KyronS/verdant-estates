@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
 import Nav from "./components/Nav";
 import VerdantLogo from "@/components/verdant/VerdantLogo";
@@ -7,9 +8,9 @@ export default function Header5({ links }) {
   return (
     <div className="main-nav-sub full-wrapper">
       <div className="nav-logo-wrap local-scroll">
-        <a href="#top" className="logo font-alt">
+        <Link href="/" className="logo font-alt">
           <VerdantLogo height={38} />
-        </a>
+        </Link>
       </div>
       {/* Mobile Menu Button */}
       <div
@@ -27,10 +28,7 @@ export default function Header5({ links }) {
           <Nav links={links} />
           <li className="ms-3 me-2" />
           <li>
-            <a
-              href="#contact"
-              className="opacity-1 no-hover"
-            >
+            <Link href="/contact/" className="opacity-1 no-hover">
               <span
                 className="btn btn-mod btn-small btn-border-w btn-circle"
                 data-btn-animate="y"
@@ -42,7 +40,7 @@ export default function Header5({ links }) {
                   </span>
                 </span>
               </span>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

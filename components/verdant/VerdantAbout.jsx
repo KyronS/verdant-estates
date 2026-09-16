@@ -30,7 +30,7 @@ export default function VerdantAbout() {
                   <div className="composition-5-image-1-inner">
                     <Image
                       src={assetUrl("/assets/images/demo-slick/hs-image-3.png")}
-                      alt="Verdant Estates landscape installation"
+                      alt="Verdant Transformations landscape installation"
                       width={850}
                       height={914}
                       className="wow scaleOutIn"
@@ -67,13 +67,13 @@ export default function VerdantAbout() {
                   color: "#c8a84b",
                 }}
               >
-                About Verdant Estates
+                About Verdant Transformations
               </p>
               <h3 className="section-title mb-30">
                 Florida&apos;s Premier Landscape Studio
               </h3>
               <p className="text-gray mb-40">
-                Founded in Miami, Verdant Estates brings together master
+                Founded in Miami, Verdant Transformations brings together master
                 horticulturalists, landscape architects, and irrigation engineers
                 to deliver outdoor environments of rare distinction. From
                 sprawling private estates to landmark public institutions, every

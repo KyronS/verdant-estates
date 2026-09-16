@@ -4,10 +4,16 @@ import Service from "@/components/homes/home-5/Service";
 import Link from "next/link";
 import { verdantMenu } from "@/data/menu";
 
+const title = "Services — Verdant Transformations";
+const description =
+  "Verdant Transformations offers premium lawn maintenance, garden installation, irrigation, landscape design, tree care, and seasonal colour programmes across Florida.";
+
 export const metadata = {
-  title: "Services — Verdant Estates",
-  description:
-    "Verdant Estates offers premium lawn maintenance, garden installation, irrigation, landscape design, tree care, and seasonal colour programmes across Florida.",
+  title,
+  description,
+  alternates: { canonical: "/services/" },
+  openGraph: { title, description, url: "/services/" },
+  twitter: { title, description },
 };
 
 export default function ServicesPage() {

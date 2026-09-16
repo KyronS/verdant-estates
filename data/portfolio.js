@@ -284,27 +284,6 @@ export const portfolios5 = [
     categories: ["installation"],
   },
   {
-    id: 31,
-    imageSrc: "/assets/images/demo-elegant/portfolio/4.jpg",
-    title: "South Beach Rooftop Terrace",
-    type: "Lightbox",
-    categories: ["installation", "maintenance"],
-  },
-  {
-    id: 32,
-    imageSrc: "/assets/images/demo-elegant/portfolio/5.jpg",
-    title: "Coconut Grove Private Villa",
-    type: "Lightbox",
-    categories: ["maintenance"],
-  },
-  {
-    id: 33,
-    imageSrc: "/assets/images/demo-elegant/portfolio/6.jpg",
-    title: "Wynwood Arts District Courtyard",
-    type: "Lightbox",
-    categories: ["installation"],
-  },
-  {
     id: 34,
     imageSrc: "/assets/images/demo-elegant/portfolio/7.jpg",
     title: "Fisher Island Resort Grounds",
@@ -312,11 +291,32 @@ export const portfolios5 = [
     categories: ["maintenance", "installation"],
   },
   {
-    id: 35,
-    imageSrc: "/assets/images/demo-elegant/portfolio/8.jpg",
-    title: "Key Biscayne Bayfront Estate",
+    id: 89,
+    imageSrc: "/assets/images/demo-elegant/portfolio/9.jpg",
+    title: "Bal Harbour Promenade Maintenance",
     type: "Lightbox",
     categories: ["maintenance"],
+  },
+  {
+    id: 90,
+    imageSrc: "/assets/images/demo-elegant/portfolio/10.jpg",
+    title: "Palm Beach Color Border Installation",
+    type: "Lightbox",
+    categories: ["installation"],
+  },
+  {
+    id: 91,
+    imageSrc: "/assets/images/demo-elegant/portfolio/11.jpg",
+    title: "Palm Beach Fountain Garden",
+    type: "Lightbox",
+    categories: ["installation"],
+  },
+  {
+    id: 92,
+    imageSrc: "/assets/images/demo-elegant/portfolio/12.jpg",
+    title: "Indian Creek Parterre Garden",
+    type: "Lightbox",
+    categories: ["installation"],
   },
 ];
 

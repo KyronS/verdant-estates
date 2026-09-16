@@ -2,7 +2,7 @@ export const contactItems = [
   {
     iconClass: "mi-location",
     title: "Our Studio",
-    text: "Verdant Estates, 1420 Brickell Avenue, Miami, Florida 33131",
+    text: "Verdant Transformations, 1420 Brickell Avenue, Miami, Florida 33131",
     link: {
       url: "#",
       text: "See Map",
@@ -13,9 +13,9 @@ export const contactItems = [
   {
     iconClass: "mi-email",
     title: "Email Us",
-    text: "hello@verdantestates.com",
+    text: "hello@verdanttransformations.com",
     link: {
-      url: "mailto:hello@verdantestates.com",
+      url: "mailto:hello@verdanttransformations.com",
       text: "Say Hello",
     },
   },

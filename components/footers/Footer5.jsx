@@ -12,7 +12,7 @@ export default function Footer5() {
       {/* End Scroll Up */}
       {/* Footer Text */}
       <div className="footer-text">
-        <div>© Verdant Estates {new Date().getFullYear()}. All rights reserved.</div>
+        <div>© Verdant Transformations {new Date().getFullYear()}. All rights reserved.</div>
         <div className="footer-made">Created by WebDev Studios</div>
       </div>
       {/* End Footer Text */}

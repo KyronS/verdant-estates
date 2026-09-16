@@ -5,10 +5,16 @@ import Link from "next/link";
 import Image from "next/image";
 import { verdantMenu } from "@/data/menu";
 
+const title = "Projects — Verdant Transformations";
+const description =
+  "Explore Verdant Transformations' portfolio of luxury landscaping projects across Florida — from private estates to the grounds of Vizcaya Museum & Gardens.";
+
 export const metadata = {
-  title: "Projects — Verdant Estates",
-  description:
-    "Explore Verdant Estates' portfolio of luxury landscaping projects across Florida — from private estates to the grounds of Vizcaya Museum & Gardens.",
+  title,
+  description,
+  alternates: { canonical: "/projects/" },
+  openGraph: { title, description, url: "/projects/" },
+  twitter: { title, description },
 };
 
 export default function ProjectsPage() {
@@ -111,7 +117,7 @@ export default function ProjectsPage() {
                       <p>
                         Vizcaya&apos;s ten acres of formal Italian Renaissance gardens
                         represent one of Florida&apos;s most significant cultural
-                        landscapes. Verdant Estates serves as the estate&apos;s
+                        landscapes. Verdant Transformations serves as the estate&apos;s
                         primary landscape partner — maintaining historical
                         authenticity while adapting the grounds to Florida&apos;s
                         unique subtropical conditions.

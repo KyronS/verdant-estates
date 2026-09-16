@@ -14,10 +14,16 @@ const ParallaxContainer = dynamic(
   { ssr: false }
 );
 
+const title = "Verdant Transformations — Luxury Landscaping, Florida";
+const description =
+  "Verdant Transformations crafts extraordinary outdoor environments across Florida — maintenance, installation, and landscape design for discerning clients.";
+
 export const metadata = {
-  title: "Verdant Estates — Luxury Landscaping, Florida",
-  description:
-    "Verdant Estates crafts extraordinary outdoor environments across Florida — maintenance, installation, and landscape design for discerning clients.",
+  title,
+  description,
+  alternates: { canonical: "/" },
+  openGraph: { title, description, url: "/" },
+  twitter: { title, description },
 };
 
 export default function VerdantHome() {
@@ -51,7 +57,7 @@ export default function VerdantHome() {
                 </h2>
                 <h1 className="hs-title-3 mb-80 mb-sm-50 mb-xs-30">
                   <span className="wow charsAnimInLong" data-splitting="chars">
-                    <AnimatedText text="Verdant Estates" />
+                    <AnimatedText text="Verdant Transformations" />
                   </span>
                 </h1>
                 <p

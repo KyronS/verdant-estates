@@ -3,10 +3,16 @@ import Footer5 from "@/components/footers/Footer5";
 import VerdantContact from "@/components/verdant/VerdantContact";
 import { verdantMenu } from "@/data/menu";
 
+const title = "Contact — Verdant Transformations";
+const description =
+  "Get in touch with Verdant Transformations to discuss your landscaping project in Florida. We serve residential estates, commercial properties, and institutional clients.";
+
 export const metadata = {
-  title: "Contact — Verdant Estates",
-  description:
-    "Get in touch with Verdant Estates to discuss your landscaping project in Florida. We serve residential estates, commercial properties, and institutional clients.",
+  title,
+  description,
+  alternates: { canonical: "/contact/" },
+  openGraph: { title, description, url: "/contact/" },
+  twitter: { title, description },
 };
 
 export default function ContactPage() {
