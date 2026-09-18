@@ -52,7 +52,7 @@ const localBusinessJsonLd = {
   name: "Verdant Transformations",
   description: defaultDescription,
   url: siteUrl,
-  telephone: "+1-305-847-6200",
+  telephone: "+1-863-214-0553",
   email: "verdanttransformations@gmail.com",
   address: {
     "@type": "PostalAddress",
