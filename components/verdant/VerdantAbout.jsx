@@ -73,7 +73,7 @@ export default function VerdantAbout() {
                 Florida&apos;s Premier Landscape Studio
               </h3>
               <p className="text-gray mb-40">
-                Founded in Miami, Verdant Transformations brings together master
+                Founded in Sebring, Verdant Transformations brings together master
                 horticulturalists, landscape architects, and irrigation engineers
                 to deliver outdoor environments of rare distinction. From
                 sprawling private estates to landmark public institutions, every

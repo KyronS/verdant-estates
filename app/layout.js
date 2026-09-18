@@ -56,10 +56,10 @@ const localBusinessJsonLd = {
   email: "hello@verdanttransformations.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "1420 Brickell Avenue",
-    addressLocality: "Miami",
+    streetAddress: "7032 Pioneer Rd",
+    addressLocality: "Sebring",
     addressRegion: "FL",
-    postalCode: "33131",
+    postalCode: "33876",
     addressCountry: "US",
   },
   areaServed: "Florida",

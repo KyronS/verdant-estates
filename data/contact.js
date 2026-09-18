@@ -2,7 +2,7 @@ export const contactItems = [
   {
     iconClass: "mi-location",
     title: "Our Studio",
-    text: "Verdant Transformations, 1420 Brickell Avenue, Miami, Florida 33131",
+    text: "Verdant Transformations, 7032 Pioneer Rd, Sebring, Florida 33876",
     link: {
       url: "#",
       text: "See Map",

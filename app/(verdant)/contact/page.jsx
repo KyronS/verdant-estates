@@ -74,8 +74,8 @@ export default function ContactPage() {
                     <span className="text-gray">.</span>
                   </h2>
                   <div className="text-gray">
-                    Based in Miami, we serve clients across South Florida —
-                    from the Keys to Palm Beach.
+                    Based in Sebring, we serve clients across Central
+                    Florida.
                   </div>
                 </div>
               </div>
