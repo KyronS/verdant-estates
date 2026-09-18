@@ -13,9 +13,9 @@ export const contactItems = [
   {
     iconClass: "mi-email",
     title: "Email Us",
-    text: "hello@verdanttransformations.com",
+    text: "verdanttransformations@gmail.com",
     link: {
-      url: "mailto:hello@verdanttransformations.com",
+      url: "mailto:verdanttransformations@gmail.com",
       text: "Say Hello",
     },
   },
